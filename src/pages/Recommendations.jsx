@@ -36,6 +36,17 @@ function Recommendations() {
       text: "I had the privilege of seeing Mehul grow from fresher to experienced professional. Skilled in Ruby on Rails, he excelled in Honeybadger tickets tracking, ensuring quick resolutions and quality delivery. His collaboration and communication skills made him an asset to every release, while his helpful and friendly nature fostered a positive work environment. Always showing an eagerness to learn, he consistently took on challenges and explored improvements. I am truly proud to have worked with him and can confidently say any team would benefit from his technical expertise, positive attitude, and commitment to excellence.",
       date: "August 9, 2025",
       linkedin: "https://www.linkedin.com/in/mehul-pradhan-rourkela/details/recommendations/?detailScreenTabIndex=0"
+    },
+    {
+      id: 4,
+      name: "Manvendra Singh",
+      title: "Senior Principal Software Engineer, Backlight",
+      company: "",
+      image: "MS",
+      relationship: "Manvendra managed Mehul directly",
+      text: "I’ve had the privilege of working closely with Mehul, and he is truly an exceptional talent. His depth of knowledge far surpasses his experience, and he consistently demonstrates strong ownership—taking on challenges head-on and driving tasks to closure. Mehul is a reliable team player who communicates transparently and keeps everyone aligned with regular progress updates. The entire team often turned to him as the go-to person, and he delivered across every area—whether it was Zendesk, automation, or backend work. Even when he encountered difficulties, he pushed through and completed what was required. He is highly process-oriented, has excellent work ethic, and puts in consistent daily effort. He seeks support from seniors only when truly necessary, otherwise taking initiative to figure things out on his own. Watching him grow from a fresher into our backend expert in such a short span was remarkable. Mehul is always eager to learn and readily steps up to take on extra responsibility for the good of the team. Any team would be lucky to have him.",
+      date: "November 22, 2025",
+      linkedin: "https://www.linkedin.com/in/mehul-pradhan-rourkela/details/recommendations/?detailScreenTabIndex=0"
     }
   ];
 
