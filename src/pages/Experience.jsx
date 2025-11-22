@@ -6,10 +6,10 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Senior Software Engineer",
-      company: "Company Name",
-      location: "City, State",
-      period: "January 2022 - Present",
+      title: "Software Development Engineer II",
+      company: "Skej",
+      location: "Rourkela, Odisha (WFH)",
+      period: "October 2025 - Present",
       description: "Leading development of scalable web applications and mentoring junior developers.",
       responsibilities: [
         "Architected and implemented microservices using Node.js and React",
@@ -21,10 +21,10 @@ function Experience() {
     },
     {
       id: 2,
-      title: "Software Developer",
-      company: "Previous Company",
-      location: "City, State",
-      period: "June 2020 - December 2021",
+      title: "Software Developer I",
+      company: "Backlight",
+      location: "Rourkela, Odisha (WFH)",
+      period: "June 2020 - October 2025",
       description: "Developed and maintained full-stack web applications for enterprise clients.",
       responsibilities: [
         "Built responsive web applications using React and TypeScript",
@@ -33,21 +33,6 @@ function Experience() {
         "Participated in code reviews and agile ceremonies"
       ],
       technologies: ["React", "TypeScript", "Express.js", "PostgreSQL", "Git"]
-    },
-    {
-      id: 3,
-      title: "Junior Developer",
-      company: "Startup Company",
-      location: "City, State",
-      period: "January 2019 - May 2020",
-      description: "Started career developing features for a fast-growing SaaS platform.",
-      responsibilities: [
-        "Implemented new features for customer-facing dashboard",
-        "Fixed bugs and improved code quality",
-        "Wrote unit tests and documentation",
-        "Assisted in database design and optimization"
-      ],
-      technologies: ["JavaScript", "Python", "Django", "MySQL", "Bootstrap"]
     }
   ];
 

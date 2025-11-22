@@ -5,6 +5,7 @@ import Resume from './pages/Resume';
 import Experience from './pages/Experience';
 import Recommendations from './pages/Recommendations';
 import GitHub from './pages/GitHub';
+import Blog from './pages/Blog';
 import './App.css';
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
               <li className="nav-item">
                 <Link to="/github" className="nav-link">GitHub</Link>
               </li>
+              <li className="nav-item">
+                <Link to="/blog" className="nav-link">Blog</Link>
+              </li>
             </ul>
           </div>
         </nav>
@@ -43,6 +47,7 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/recommendations" element={<Recommendations />} />
             <Route path="/github" element={<GitHub />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </main>
 

@@ -6,47 +6,36 @@ function Recommendations() {
   const recommendations = [
     {
       id: 1,
-      name: "John Smith",
-      title: "Senior Engineering Manager",
-      company: "Tech Corp",
-      image: "JS",
-      relationship: "Manager",
-      text: "Mehul is an exceptional developer with a keen eye for detail and a passion for clean code. His ability to solve complex problems and mentor junior developers makes him an invaluable asset to any team. I highly recommend him for any software engineering role.",
-      date: "January 2024",
-      linkedin: "https://linkedin.com/in/johnsmith"
+      name: "Sanju Gautam",
+      title: "Backend Lead | Ruby | Ruby on Rails | Python | Flask | Django",
+      company: "",
+      image: "SG",
+      relationship: "Colleague",
+      text: "Mehul is an amazing developer. He is excellent in what he does and takes full accountability of whatever he builds. he doesn't hesitate to take the extra step to help his team members and collaborate in a productive manner. I have personally seen him producing outstanding features and I would totally recommend him.",
+      date: "June 12, 2023",
+      linkedin: "https://www.linkedin.com/in/mehul-pradhan-rourkela/details/recommendations/?detailScreenTabIndex=0"
     },
     {
       id: 2,
-      name: "Sarah Johnson",
-      title: "Lead Product Designer",
-      company: "Design Studio",
-      image: "SJ",
-      relationship: "Colleague",
-      text: "Working with Mehul was a pleasure. He has excellent communication skills and always delivered high-quality work on time. His technical expertise combined with his collaborative approach made our projects successful. He would be a great addition to any team.",
-      date: "November 2023",
-      linkedin: "https://linkedin.com/in/sarahjohnson"
+      name: "Simon Baumer",
+      title: "Builder",
+      company: "",
+      image: "SB",
+      relationship: "Simon was senior to Mehul but didn't manage Mehul directly",
+      text: "Mehul is an eager and valuable participant on any team he joins. He's not afraid to get his hands dirty on difficult problems, and knows when to consult with more experienced engineers to make sure he's approaching the code with the proper tact. It was a joy working with him everyday on a relatively small team to move fast and in harmony with the rest of the development team.",
+      date: "June 20, 2023",
+      linkedin: "https://www.linkedin.com/in/mehul-pradhan-rourkela/details/recommendations/?detailScreenTabIndex=0"
     },
     {
       id: 3,
-      name: "Michael Chen",
-      title: "CTO",
-      company: "Startup Inc",
-      image: "MC",
-      relationship: "Supervisor",
-      text: "Mehul demonstrated exceptional problem-solving skills and technical proficiency during his time with us. He quickly became a key contributor to our team and showed great leadership potential. I wouldn't hesitate to work with him again.",
-      date: "August 2023",
-      linkedin: "https://linkedin.com/in/michaelchen"
-    },
-    {
-      id: 4,
-      name: "Emily Rodriguez",
-      title: "Software Engineer",
-      company: "Tech Solutions",
-      image: "ER",
-      relationship: "Colleague",
-      text: "Mehul is not only a skilled developer but also an excellent team player. His willingness to help others and share knowledge creates a positive work environment. His contributions to our projects were always top-notch.",
-      date: "June 2023",
-      linkedin: "https://linkedin.com/in/emilyrodriguez"
+      name: "Yogesh Khatri",
+      title: "AVP Delivery, Quarks | Ex Backlight | Ex-Adobe| Agile, Quality, Product, SaaS, Web &amp; Mobile Apps",
+      company: "",
+      image: "YK",
+      relationship: "Yogesh Managed Mehul Directly",
+      text: "I had the privilege of seeing Mehul grow from fresher to experienced professional. Skilled in Ruby on Rails, he excelled in Honeybadger tickets tracking, ensuring quick resolutions and quality delivery. His collaboration and communication skills made him an asset to every release, while his helpful and friendly nature fostered a positive work environment. Always showing an eagerness to learn, he consistently took on challenges and explored improvements. I am truly proud to have worked with him and can confidently say any team would benefit from his technical expertise, positive attitude, and commitment to excellence.",
+      date: "August 9, 2025",
+      linkedin: "https://www.linkedin.com/in/mehul-pradhan-rourkela/details/recommendations/?detailScreenTabIndex=0"
     }
   ];
 
@@ -101,7 +90,7 @@ function Recommendations() {
         <h2>Would you like to add a recommendation?</h2>
         <p>If we've worked together, I'd love to hear from you!</p>
         <a
-          href="https://linkedin.com/in/mehulpradhan"
+          href="https://www.linkedin.com/recs/give/?senderId=mehul-pradhan-rourkela"
           target="_blank"
           rel="noopener noreferrer"
           className="linkedin-recommend-btn"
