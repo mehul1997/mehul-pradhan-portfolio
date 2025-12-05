@@ -39,41 +39,46 @@ function Experience() {
   return (
     <div className="page-container experience-page">
       <div className="experience-header">
-        <h1>Professional Experience</h1>
-        <p className="subtitle">My journey in software development</p>
+        <div className="header-top">
+          <span className="header-label">Work History</span>
+          <div className="header-divider"></div>
+        </div>
+        <h1 className="page-title">Professional Experience</h1>
       </div>
 
-      <div className="timeline">
+      <div className="experience-list">
         {experiences.map((exp, index) => (
-          <div key={exp.id} className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}>
-            <div className="timeline-content">
-              <div className="timeline-marker"></div>
-              <div className="experience-card">
-                <div className="card-header">
-                  <h2>{exp.title}</h2>
-                  <h3>{exp.company}</h3>
-                  <div className="meta-info">
-                    <span className="location">📍 {exp.location}</span>
-                    <span className="period">📅 {exp.period}</span>
+          <div key={exp.id} className="experience-item">
+            <div className="experience-number">{String(index + 1).padStart(2, '0')}</div>
+
+            <div className="experience-content">
+              <div className="experience-main">
+                <div className="experience-title-section">
+                  <h2 className="job-title">{exp.title}</h2>
+                  <div className="company-info">
+                    <span className="company-name">{exp.company}</span>
+                    <span className="separator">·</span>
+                    <span className="location">{exp.location}</span>
                   </div>
+                  <div className="period">{exp.period}</div>
                 </div>
 
                 <p className="description">{exp.description}</p>
 
-                <div className="responsibilities">
-                  <h4>Key Responsibilities:</h4>
-                  <ul>
+                <div className="responsibilities-section">
+                  <h4 className="section-label">Responsibilities</h4>
+                  <ul className="responsibilities-list">
                     {exp.responsibilities.map((resp, idx) => (
                       <li key={idx}>{resp}</li>
                     ))}
                   </ul>
                 </div>
 
-                <div className="technologies">
-                  <h4>Technologies Used:</h4>
-                  <div className="tech-tags">
+                <div className="technologies-section">
+                  <h4 className="section-label">Tech Stack</h4>
+                  <div className="tech-list">
                     {exp.technologies.map((tech, idx) => (
-                      <span key={idx} className="tech-tag">{tech}</span>
+                      <span key={idx} className="tech-item">{tech}</span>
                     ))}
                   </div>
                 </div>
@@ -84,17 +89,22 @@ function Experience() {
       </div>
 
       <div className="stats-section">
-        <div className="stat-card">
-          <h3>5+</h3>
-          <p>Years Experience</p>
+        <div className="stats-header">
+          <span className="section-number">Overview</span>
         </div>
-        <div className="stat-card">
-          <h3>20+</h3>
-          <p>Projects Completed</p>
-        </div>
-        <div className="stat-card">
-          <h3>10+</h3>
-          <p>Technologies Mastered</p>
+        <div className="stats-grid">
+          <div className="stat-item">
+            <div className="stat-value">5+</div>
+            <div className="stat-label">Years Experience</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-value">20+</div>
+            <div className="stat-label">Projects Completed</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-value">10+</div>
+            <div className="stat-label">Technologies Mastered</div>
+          </div>
         </div>
       </div>
     </div>

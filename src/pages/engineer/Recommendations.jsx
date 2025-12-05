@@ -53,61 +53,64 @@ function Recommendations() {
   return (
     <div className="page-container recommendations-page">
       <div className="recommendations-header">
-        <h1>Recommendations</h1>
-        <p className="subtitle">What colleagues and managers say about working with me</p>
+        <div className="header-top">
+          <span className="header-label">Testimonials</span>
+          <div className="header-divider"></div>
+        </div>
+        <h1 className="page-title">Recommendations</h1>
       </div>
 
-      <div className="recommendations-grid">
-        {recommendations.map((rec) => (
-          <div key={rec.id} className="recommendation-card">
-            <div className="card-top">
-              <div className="profile-section">
-                <div className="profile-image">{rec.image}</div>
+      <div className="recommendations-list">
+        {recommendations.map((rec, index) => (
+          <div key={rec.id} className="recommendation-item">
+            <div className="recommendation-number">{String(index + 1).padStart(2, '0')}</div>
+
+            <div className="recommendation-content">
+              <div className="profile-header">
                 <div className="profile-info">
-                  <h3>{rec.name}</h3>
-                  <p className="title">{rec.title}</p>
-                  <p className="company">{rec.company}</p>
-                  <span className="relationship-badge">{rec.relationship}</span>
+                  <h3 className="person-name">{rec.name}</h3>
+                  <p className="person-title">{rec.title}</p>
+                  <span className="relationship">{rec.relationship}</span>
                 </div>
+                {rec.linkedin && (
+                  <a
+                    href={rec.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="linkedin-link"
+                    aria-label="View on LinkedIn"
+                  >
+                    →
+                  </a>
+                )}
               </div>
-              {rec.linkedin && (
-                <a
-                  href={rec.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="linkedin-link"
-                  title="View LinkedIn Profile"
-                >
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                  </svg>
-                </a>
-              )}
-            </div>
 
-            <div className="recommendation-text">
-              <div className="quote-icon">"</div>
-              <p>{rec.text}</p>
-            </div>
+              <div className="recommendation-text">
+                <div className="quote-mark">"</div>
+                <p className="quote-text">{rec.text}</p>
+              </div>
 
-            <div className="card-footer">
-              <span className="date">{rec.date}</span>
+              <div className="recommendation-footer">
+                <span className="date">{rec.date}</span>
+              </div>
             </div>
           </div>
         ))}
       </div>
 
-      <div className="add-recommendation-section">
-        <h2>Would you like to add a recommendation?</h2>
-        <p>If we've worked together, I'd love to hear from you!</p>
-        <a
-          href="https://www.linkedin.com/recs/give/?senderId=mehul-pradhan-rourkela"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="linkedin-recommend-btn"
-        >
-          Recommend me on LinkedIn
-        </a>
+      <div className="cta-section">
+        <div className="cta-content">
+          <h2 className="cta-title">Add Your Recommendation</h2>
+          <p className="cta-description">If we've worked together, I'd appreciate your feedback</p>
+          <a
+            href="https://www.linkedin.com/recs/give/?senderId=mehul-pradhan-rourkela"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-button"
+          >
+            Recommend on LinkedIn
+          </a>
+        </div>
       </div>
     </div>
   );

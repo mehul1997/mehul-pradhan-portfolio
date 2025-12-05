@@ -1,0 +1,228 @@
+.recommendations-page {
+  background: #000000;
+  min-height: 100vh;
+}
+
+.recommendations-header {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 8rem 2rem 4rem;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.header-label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.header-divider {
+  flex: 1;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.page-title {
+  font-size: 3.5rem;
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  font-family: inherit;
+}
+
+.recommendations-list {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.recommendation-item {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 3rem;
+  padding: 4rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.recommendation-item:last-child {
+  border-bottom: none;
+}
+
+.recommendation-number {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 0.5rem;
+}
+
+.recommendation-content {
+  width: 100%;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.person-name {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+}
+
+.person-title {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+}
+
+.relationship {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 300;
+  font-style: italic;
+}
+
+.linkedin-link {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  padding-left: 1rem;
+}
+
+.linkedin-link:hover {
+  color: rgba(255, 255, 255, 0.7);
+  transform: translateX(3px);
+}
+
+.recommendation-text {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.quote-mark {
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.05);
+  font-family: Georgia, serif;
+  line-height: 1;
+  margin-bottom: -1rem;
+}
+
+.quote-text {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.8;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.recommendation-footer {
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.date {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 300;
+}
+
+.cta-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 6rem 2rem 8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.cta-content {
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  margin-bottom: 1rem;
+  font-family: inherit;
+}
+
+.cta-description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 2.5rem;
+  font-weight: 300;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .recommendations-header {
+    padding: 6rem 2rem 3rem;
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+  }
+
+  .recommendation-item {
+    grid-template-columns: 40px 1fr;
+    gap: 1.5rem;
+    padding: 3rem 0;
+  }
+
+  .person-name {
+    font-size: 1.25rem;
+  }
+
+  .profile-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .linkedin-link {
+    align-self: flex-start;
+    padding-left: 0;
+  }
+}
