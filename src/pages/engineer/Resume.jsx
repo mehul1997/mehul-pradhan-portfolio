@@ -23,9 +23,7 @@ function Resume() {
             <h2 className="section-title">Professional Summary</h2>
           </div>
           <p className="summary-text">
-            Add a brief professional summary highlighting your key skills, experience,
-            and career objectives. This should be 2-3 sentences that capture your
-            professional identity.
+            Backend-focused SDE-II with nearly 5 years of experience building scalable, high-performance systems, now specializing in Agentic AI and prompt engineering at Skej. Seeking a role where I can combine strong backend architecture skills with modern AI-driven workflows to deliver intelligent, production-ready solutions at scale.
           </p>
         </section>
 
@@ -35,10 +33,10 @@ function Resume() {
             <h2 className="section-title">Education</h2>
           </div>
           <div className="resume-item">
-            <h3 className="item-title">Your Degree - University Name</h3>
-            <p className="item-date">Year - Year</p>
-            <p className="item-detail">Major/Field of Study</p>
-            <p className="item-detail">GPA: X.XX/4.0 (optional)</p>
+            <h3 className="item-title">Bachelor's in Technology - Institute of Techinical Education and Research, Bhubaneswar</h3>
+            <p className="item-date">2016 - 2020</p>
+            <p className="item-detail">Computer Science and Engineering</p>
+            <p className="item-detail">CGPA: 9.61</p>
           </div>
         </section>
 
@@ -50,11 +48,11 @@ function Resume() {
           <div className="skills-grid">
             <div className="skill-category">
               <span className="skill-label">Languages</span>
-              <p className="skill-items">JavaScript · Python · Java · C++ · SQL</p>
+              <p className="skill-items">Ruby on Rails · Python · SQL</p>
             </div>
             <div className="skill-category">
               <span className="skill-label">Frameworks</span>
-              <p className="skill-items">React · Node.js · Express · Django</p>
+              <p className="skill-items">React · Node.js · Django</p>
             </div>
             <div className="skill-category">
               <span className="skill-label">Tools</span>
@@ -69,17 +67,17 @@ function Resume() {
             <h2 className="section-title">Work Experience</h2>
           </div>
           <div className="resume-item">
-            <h3 className="item-title">Job Title - Company Name</h3>
-            <p className="item-date">Start Date - End Date</p>
+            <h3 className="item-title">SDE II - Skej</h3>
+            <p className="item-date">October 2025 - Current</p>
             <ul className="item-list">
-              <li>Key achievement or responsibility #1</li>
-              <li>Key achievement or responsibility #2</li>
-              <li>Key achievement or responsibility #3</li>
+              <li>Designed and implemented agentic AI workflows by building multi-step autonomous agents using structured prompts, tool-calling, memory layers, and task orchestration logic.</li>
+              <li>Owned end-to-end feature delivery by collaborating across backend, frontend, and product teams — from requirement analysis to production deployment.</li>
+              <li>Led debugging and root-cause analysis for LLM behavior failures, including prompt regressions, tool misuse, and context loss scenarios.</li>
             </ul>
           </div>
           <div className="resume-item">
-            <h3 className="item-title">Previous Job Title - Company Name</h3>
-            <p className="item-date">Start Date - End Date</p>
+            <h3 className="item-title">SDE I - Backlight</h3>
+            <p className="item-date">June 2020 - End Date</p>
             <ul className="item-list">
               <li>Key achievement or responsibility #1</li>
               <li>Key achievement or responsibility #2</li>

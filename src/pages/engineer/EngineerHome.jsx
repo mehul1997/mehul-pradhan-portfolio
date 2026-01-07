@@ -32,7 +32,7 @@ function EngineerHome() {
           </div>
           <div className="skill-item">
             <h3>Backend Development</h3>
-            <p>Node.js · Python · Java · RESTful APIs</p>
+            <p>Node.js · Python · Ruby on Rails · RESTful APIs</p>
           </div>
           <div className="skill-item">
             <h3>Tools & Infrastructure</h3>
@@ -85,7 +85,7 @@ function EngineerHome() {
         </div>
         <p className="contact-description">Available for collaboration and consulting opportunities.</p>
         <div className="contact-links">
-          <a href="mailto:mehul@example.com" className="contact-link">Email</a>
+          <a href="mailto:mehulpradhan1997@gmail.com" className="contact-link">Email</a>
           <a href="https://www.linkedin.com/in/mehul-pradhan-rourkela/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
           <a href="https://github.com/mehul1997" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
         </div>
