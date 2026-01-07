@@ -23,23 +23,18 @@ function About() {
           <h2>My Passions</h2>
           <div className="passions-grid">
             <div className="passion-item">
-              <div className="passion-icon">📚</div>
-              <h3>Reading & Learning</h3>
-              <p>Always curious, always learning. Books and knowledge fuel my journey.</p>
-            </div>
-            <div className="passion-item">
               <div className="passion-icon">🌍</div>
               <h3>Travel & Exploration</h3>
               <p>Discovering new places and cultures broadens my perspective.</p>
             </div>
             <div className="passion-item">
               <div className="passion-icon">📷</div>
-              <h3>Photography</h3>
-              <p>Capturing moments and telling stories through the lens.</p>
+              <h3>Gaming</h3>
+              <p>Playing tons of games throughout my life and enjoying them till date</p>
             </div>
             <div className="passion-item">
               <div className="passion-icon">✍️</div>
-              <h3>Writing</h3>
+              <h3>Writing and coding!</h3>
               <p>Expressing thoughts and experiences through words.</p>
             </div>
           </div>
@@ -61,9 +56,9 @@ function About() {
             about shared interests, exchange ideas, or just say hi, feel free to reach out!
           </p>
           <div className="social-links">
-            <a href="mailto:mehul@example.com" className="social-btn">📧 Email</a>
+            <a href="mailto:mehulpradhan1997@gmail.com" className="social-btn">📧 Email</a>
             <a href="https://www.linkedin.com/in/mehul-pradhan-rourkela/" target="_blank" rel="noopener noreferrer" className="social-btn">💼 LinkedIn</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-btn">📱 Instagram</a>
+            <a href="https://instagram.com/mehulpradhan" target="_blank" rel="noopener noreferrer" className="social-btn">📱 Instagram</a>
           </div>
         </section>
       </div>
