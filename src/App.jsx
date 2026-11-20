@@ -223,7 +223,7 @@ export default function App() {
             </div>
           </div>
           <div className="portrait">
-            <img src="/assets/portrait.jpg" alt="Mehul Pradhan" width="720" height="900" />
+            <img src="/assets/portrait-street.jpg" alt="Mehul Pradhan smiling on a street lined with murals" width="540" height="675" />
           </div>
         </section>
 
